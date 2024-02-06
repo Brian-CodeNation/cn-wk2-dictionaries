@@ -8,4 +8,6 @@ animals = {
     "Cow" : "Calf",
 }
 
-print(animals)
+print(animals.keys())
+print(animals.values())
+
