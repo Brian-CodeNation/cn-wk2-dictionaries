@@ -8,6 +8,8 @@ animals = {
     "Cow" : "Calf",
 }
 
-print(animals.keys())
-print(animals.values())
+#The get method returns the value of a key
+print(animals.get("Dog"))
+
+print(animals.get("TRex", "Nope - can't this one"))
 
